@@ -1,4 +1,4 @@
-mystery_word: str = "real club nautico"
+mystery_word: str = "mystery_word_here"
 covered: str = mystery_word.replace(" ", "")
 
 def indexer(word: str) -> str:
@@ -10,6 +10,6 @@ def indexer(word: str) -> str:
         
     return "-".join(indexes)
     
-anagram: str = "tore"
+anagram: str = "anagram_here"
 
 print(indexer(anagram))
